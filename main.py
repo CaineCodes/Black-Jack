@@ -20,3 +20,10 @@ for i in range(7):
 print("Your hand is:")
 for card in my_hand:
     print(card)
+
+# Deal bot 7 cards - hidden
+bot_hand = []
+for i in range(7):
+    bot_hand.append(deck.pop(0))
+
+print("\nBot has 7 cards (hidden)")
